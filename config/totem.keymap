@@ -34,15 +34,11 @@
         exclamation {
             bindings = <&kp EXCLAMATION>;
             key-positions = <4 14>;
-            layers = <0 1>;
-            timeout-ms = <50>;
         };
 
         at {
             bindings = <&kp AT_SIGN>;
             key-positions = <10 4>;
-            timeout-ms = <50>;
-            layers = <0 1>;
         };
 
         num {
