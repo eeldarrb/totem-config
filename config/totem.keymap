@@ -145,7 +145,7 @@
 
         bluetooth_layer {
             bindings = <&mo 2>;
-            key-positions = <9 30>;
+            key-positions = <21 0>;
         };
     };
 
