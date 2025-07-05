@@ -158,7 +158,7 @@
         hrm_l: hrm_l {
             compatible = "zmk,behavior-hold-tap";
             label = "HRM_l";
-            bindings = <&kp F &kp LCTRL>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <280>;
@@ -172,7 +172,7 @@
         hrm_r: hrm_r {
             compatible = "zmk,behavior-hold-tap";
             label = "HRM_r";
-            bindings = <&kp J &kp RCTRL>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <280>;
