@@ -159,7 +159,7 @@
         };
 
         escape {
-            bindings = <&kp ESCAPE>;
+            bindings = <&kp LEFT_CONTROL>;
             key-positions = <13 11>;
         };
 
@@ -179,7 +179,7 @@
         };
 
         alt_double_quote {
-            bindings = <&kp DOUBLE_QUOTES>;
+            bindings = <&kp RIGHT_CONTROL>;
             key-positions = <18 16>;
         };
     };
