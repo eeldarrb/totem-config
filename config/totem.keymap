@@ -162,6 +162,26 @@
             bindings = <&kp ESCAPE>;
             key-positions = <13 11>;
         };
+
+        single_quote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <23 28>;
+        };
+
+        double_quote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <12 17>;
+        };
+
+        alt_single_quote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <27 29>;
+        };
+
+        alt_double_quote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <18 16>;
+        };
     };
 
     keymap {
