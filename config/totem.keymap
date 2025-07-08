@@ -159,8 +159,8 @@
         };
 
         escape {
-            bindings = <&kp LEFT_CONTROL>;
-            key-positions = <13 11>;
+            bindings = <&kp ESCAPE>;
+            key-positions = <13 12>;
         };
 
         single_quote {
@@ -178,9 +178,19 @@
             key-positions = <27 29>;
         };
 
-        alt_double_quote {
+        right_control {
             bindings = <&kp RIGHT_CONTROL>;
             key-positions = <18 16>;
+        };
+
+        left_control {
+            bindings = <&kp LEFT_CONTROL>;
+            key-positions = <13 11>;
+        };
+
+        enter_alt {
+            bindings = <&kp ENTER>;
+            key-positions = <17 18>;
         };
     };
 
