@@ -160,17 +160,7 @@
 
         escape {
             bindings = <&kp ESCAPE>;
-            key-positions = <13 11>;
-        };
-
-        single_quote {
-            bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <23 28>;
-        };
-
-        double_quote {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <12 17>;
+            key-positions = <13 12>;
         };
 
         alt_single_quote {
@@ -178,9 +168,9 @@
             key-positions = <27 29>;
         };
 
-        enter_alt {
-            bindings = <&kp ENTER>;
-            key-positions = <17 18>;
+        left_control {
+            bindings = <&kp LEFT_CONTROL>;
+            key-positions = <12 11>;
         };
 
         alt_double_quote {
@@ -193,9 +183,9 @@
             key-positions = <8 6>;
         };
 
-        backtick {
-            bindings = <&kp GRAVE>;
-            key-positions = <2 7>;
+        right_control {
+            bindings = <&kp RIGHT_CONTROL>;
+            key-positions = <17 18>;
         };
     };
 
