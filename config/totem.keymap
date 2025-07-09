@@ -138,11 +138,6 @@
             key-positions = <17 29>;
         };
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
-        };
-
         bluetooth_layer {
             bindings = <&mo 2>;
             key-positions = <30 31>;
