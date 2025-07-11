@@ -31,7 +31,7 @@
 / {
     combos {
         compatible = "zmk,combos";
-        require-prior-idle-ms = <120>;
+        require-prior-idle-ms = <150>;
 
         exclamation {
             bindings = <&kp EXCLAMATION>;
