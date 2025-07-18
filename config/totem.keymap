@@ -140,7 +140,7 @@
 
         bluetooth_layer {
             bindings = <&mo 2>;
-            key-positions = <30 31>;
+            key-positions = <36 33>;
         };
 
         pipe {
