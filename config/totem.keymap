@@ -51,6 +51,7 @@
         dollar {
             bindings = <&kp DOLLAR>;
             key-positions = <12 18>;
+            require-prior-idle-ms = <150>;
         };
 
         percent {
