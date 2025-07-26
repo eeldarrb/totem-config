@@ -257,7 +257,7 @@
         };
 
         paste {
-            bindings = <&kp LG(P)>;
+            bindings = <&kp LG(V)>;
             key-positions = <24 13>;
             timeout-ms = <50>;
             require-prior-idle-ms = <150>;
