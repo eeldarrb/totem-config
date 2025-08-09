@@ -137,7 +137,7 @@
         underscore {
             bindings = <&kp LS(UNDERSCORE)>;
             key-positions = <16 17>;
-            require-prior-idle-ms = <180>;
+            require-prior-idle-ms = <115>;
             timeout-ms = <80>;
         };
 
@@ -151,14 +151,14 @@
         left_control {
             bindings = <&kp LEFT_CONTROL>;
             key-positions = <12 11>;
-            require-prior-idle-ms = <180>;
+            require-prior-idle-ms = <115>;
             timeout-ms = <80>;
         };
 
         right_control {
             bindings = <&kp RIGHT_CONTROL>;
             key-positions = <17 18>;
-            require-prior-idle-ms = <180>;
+            require-prior-idle-ms = <125>;
             timeout-ms = <80>;
         };
 
