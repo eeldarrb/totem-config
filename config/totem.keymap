@@ -263,13 +263,6 @@
             require-prior-idle-ms = <150>;
             timeout-ms = <50>;
         };
-
-        tab {
-            bindings = <&mt LEFT_SHIFT TAB>;
-            key-positions = <12 13>;
-            timeout-ms = <50>;
-            require-prior-idle-ms = <150>;
-        };
     };
 
     keymap {
