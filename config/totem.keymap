@@ -128,7 +128,7 @@
         };
 
         underscore {
-            bindings = <&kp LS(UNDERSCORE)>;
+            bindings = <&mt RIGHT_SHIFT UNDERSCORE>;
             key-positions = <16 17>;
             require-prior-idle-ms = <115>;
             timeout-ms = <80>;
@@ -265,7 +265,7 @@
         };
 
         tab {
-            bindings = <&kp TAB>;
+            bindings = <&mt LEFT_SHIFT TAB>;
             key-positions = <12 13>;
             timeout-ms = <50>;
             require-prior-idle-ms = <150>;
