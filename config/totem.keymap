@@ -128,7 +128,7 @@
         };
 
         underscore {
-            bindings = <&mt RIGHT_SHIFT UNDERSCORE>;
+            bindings = <&kp UNDERSCORE>;
             key-positions = <16 17>;
             require-prior-idle-ms = <115>;
             timeout-ms = <80>;
@@ -227,13 +227,6 @@
             timeout-ms = <50>;
         };
 
-        escape {
-            bindings = <&kp ESCAPE>;
-            key-positions = <13 11>;
-            require-prior-idle-ms = <150>;
-            timeout-ms = <50>;
-        };
-
         alt_single_quote {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <27 29>;
@@ -263,13 +256,6 @@
             require-prior-idle-ms = <150>;
             timeout-ms = <50>;
         };
-
-        left_shift {
-            bindings = <&kp LEFT_SHIFT>;
-            key-positions = <12 13>;
-            timeout-ms = <80>;
-            require-prior-idle-ms = <115>;
-        };
     };
 
     behaviors {
@@ -284,7 +270,7 @@
             require-prior-idle-ms = <150>;
             flavor = "balanced";
             hold-trigger-on-release;
-            hold-trigger-key-positions = <10>;
+            hold-trigger-key-positions = <11>;
         };
     };
 
